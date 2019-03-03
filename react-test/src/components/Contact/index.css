@@ -1,0 +1,8 @@
+#input-parent {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+.message {
+    height: 10vh;
+}

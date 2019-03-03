@@ -1,0 +1,21 @@
+#header {
+    height: 10vh;
+    display: flex;
+    color: white;
+    background-color: #0000CC;
+}
+#header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.link{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.link:hover{
+    transform: scale(1.5);
+}

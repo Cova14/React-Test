@@ -1,0 +1,20 @@
+.card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40vh;
+}
+
+.card {
+    grid-column: 1;
+    grid-row: 1;
+    border: 0.5px solid black;
+    border-radius: 1px;
+    text-align: center;
+}
+
+.card div img {
+    height: 40vh;
+}
+
+.card > p{
+    color: white;
+}
